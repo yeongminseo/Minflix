@@ -1,0 +1,79 @@
+@media screen and (max-width:760px){
+    body{
+        font-size: 16px;
+    }
+    .logo img{
+        width:140px;
+    }
+    header{
+        padding:35px 20px;
+    }
+    .welcome{
+        height:100vh
+    }
+    .heading{
+        width:100%;
+    }
+    .heading h1 {
+        font-size: 32px;
+    }
+    .inner {
+        width:100%;
+        flex-wrap: wrap;
+        height:auto;
+    }
+    .preview img{
+        width: 100%;
+        height: auto; /*height auto 로 기존 style.css 의 350px를 해제해준다*/
+    }
+    .inner .dsec,.inner .preview{
+        width:100%;
+        text-align: center;
+    }
+    .download .inner,.create .inner{
+        flex-direction: column-reverse;
+    }
+    section {
+        padding:20px;
+    }
+    section.welcome{
+        padding:0;
+    }
+    .faq{
+        padding:80px 20px;
+    }
+    .faq-inner{
+        width:100%;
+    }
+    .faq-inner h1{
+        text-align: center;
+        font-size: 30px;
+    }
+    .faq-inner label {
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+    section h2 {
+        font-size:30px ;
+    }
+    .footer_inner{
+        width:100%;
+    }
+    .footer_inner h6{
+        text-align: center;
+        font-size: 22px !important;
+    }
+    .getstarted{
+        width:90%;
+    }
+    .getstarted input[type=email]{
+        width:100%;
+        margin:0 0 4px 0
+    }
+    .getstarted button{
+        width:100%;
+    }
+    .login{
+        width:100%;
+    }
+}
